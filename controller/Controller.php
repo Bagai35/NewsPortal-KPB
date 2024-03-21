@@ -46,19 +46,19 @@ class Controller
 
     public static function Comments($newsid)
     {
-        $arr = Comments::getCommentsByNewsID($newsid);
+        $arr = Comments::getCommentByNewsID($newsid);
         ViewComments::CommentByNews($arr);
     }
 
     public static function CommentsCount($newsid)
     {
-        $arr = Comments::getCommentsCountByNewsID($newsid);
+        $arr = Comments::getCommnetsCountByNewsID($newsid);
         ViewComments::CommentsCount($arr);
     }
 
     public static function CommentsCountWithAncor($newsid)
     {
-        $arr = Comments::getCommentsCountByNewsID($newsid);
+        $arr = Comments::getCommnetsCountByNewsID($newsid);
         ViewComments::CommentCountWithAncor($arr);
     }
 }

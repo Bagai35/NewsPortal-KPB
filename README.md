@@ -74,3 +74,7 @@ Visit http://localhost/NewsPortal-KPB in your web browser to access the applicat
 
 ## **p.s**
 Feel free to customize and enhance this news portal according to your needs. Happy coding! 🚀
+
+
+
+

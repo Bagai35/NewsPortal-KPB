@@ -20,8 +20,8 @@ SET time_zone = "+00:00";
 --
 -- База данных: `news_portla_php`
 --
-CREATE DATABASE IF NOT EXISTS `news_portla_php` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
-USE `news_portla_php`;
+CREATE DATABASE IF NOT EXISTS `newsportal` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE `newsportal`;
 
 -- --------------------------------------------------------
 
